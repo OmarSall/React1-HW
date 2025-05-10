@@ -6,7 +6,7 @@ import Header from './components/Header';
 // import FeatureSection from './components/FeatureSection';
 // import DualCardsSection from './components/DualCardsSection';
 // import PartnerLogos from './components/PartnerLogos';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       {/*<FeatureSection />*/}
       {/*<DualCardsSection />*/}
       {/*<PartnerLogos />*/}
-      {/*<Footer />*/}
+      <Footer />
     </div>
   )
 }

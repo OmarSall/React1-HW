@@ -1,6 +1,7 @@
 .header {
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     padding: 1rem 2rem;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -9,16 +10,17 @@
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: lightskyblue;
+    color: #1090CB;
     text-decoration: none;
-    padding-bottom: 2px;
-    margin-right: 1rem;
+    margin-bottom: 0;
     border-bottom: 2px solid transparent;
     transition: all 0.2s;
+    padding-bottom: 0;
+    line-height: 0.6;
 }
 
 .logo:hover {
-    border-bottom: 2px solid lightskyblue;
+    border-bottom: 4px solid #1090CB;
     padding-bottom: 0;
-    margin: 0;
+    margin-bottom: 0;
 }
