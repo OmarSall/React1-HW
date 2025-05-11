@@ -1,19 +1,19 @@
+
+
 .footer {
-    width: 100%;
-    background-color: #f5f5f5;
+    width: 1440px;
+    background-color: white;
     text-align: center;
     margin-top: 10px;
-    padding: 1rem 1rem;
-}
-
-@media (min-width: 600px) {
-    .footer {
-        padding: 1rem 2rem;
-    }
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .topSectionWrapper {
-    /*display: flex;*/
+    position: relative;
+    width: 1440px;
+    margin: 0 0;
+    padding: 2rem 0;
 }
 
 .topSection  {
@@ -22,6 +22,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: left;
+    padding: 0 2rem;
 }
 
 .topSectionWrapper::before,
@@ -29,10 +30,9 @@
     content: "";
     position: absolute;
     left: 0;
-    width: 100%;
+    width: 1440px;
     height: 1px;
     background: #c8c8c8;
-    margin-right: -2rem;
 }
 
 .topSectionWrapper::before {
@@ -46,9 +46,10 @@
 
 .leftBlock,
 .rightBlock {
-    flex: 1 1 45%;
+    flex: 0 1 25%;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 25%;
 }
 
 .logo {
@@ -59,7 +60,9 @@
 }
 
 p {
-    margin: 0.2rem 0;
+    margin-bottom: 2rem;
+    color: #515151;
+    font-size: 16px;
 }
 
 h4 {
@@ -67,7 +70,28 @@ h4 {
 }
 
 .copyright {
+    display: block;
+    padding-bottom: 3rem;
     color: #aaa;
     font-size: 0.875rem;
+    margin-top: 2rem;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 1rem;
+    padding-top: 8rem;
     margin-top: 1rem;
+    font-size: 1.2rem;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.socialIcons img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
