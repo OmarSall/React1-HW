@@ -2,7 +2,7 @@ import styles from './FeatureTitle.module.css'
 
 export default function FeatureTitle() {
     return (
-            <div className={styles.featureSection}>
+            <div className={styles.featureSectionIntro}>
                 <div className={styles.title}>
                     <h2>Your Partner for Cutting-Edge App Development.</h2>
                 </div>
