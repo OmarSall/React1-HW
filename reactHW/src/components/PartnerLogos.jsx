@@ -1,8 +1,8 @@
 import styles from './PartnerLogos.module.css';
-import beneoshop from "../assets/beneoshop.svg";
-import caspio from "../assets/caspio.svg";
-import hyperGrid from "../assets/hyperGrid.svg";
-import leoTrippi from "../assets/leoTrippi.svg";
+import beneoshop from '../assets/beneoshop.svg';
+import caspio from '../assets/caspio.svg';
+import hyperGrid from '../assets/hyperGrid.svg';
+import leoTrippi from '../assets/leoTrippi.svg';
 
 export default function PartnerLogos() {
     return (
