@@ -5,7 +5,7 @@ import Header from './components/Header';
 // import ServicesGrid from './components/ServicesGrid';
 // import IntroText from './components/IntroText';
 // import FeatureSection from './components/FeatureSection';
-// import DualCardsSection from './components/DualCardsSection';
+import DualCardsSection from './components/DualCardsSection';
 import PartnerLogos from './components/PartnerLogos';
 import Footer from './components/Footer';
 
@@ -19,7 +19,7 @@ function App() {
       {/*<ServicesGrid />*/}
       {/*<IntroText />*/}
       {/*<FeatureSection />*/}
-      {/*<DualCardsSection />*/}
+      <DualCardsSection />
       <PartnerLogos />
       <Footer />
     </div>
