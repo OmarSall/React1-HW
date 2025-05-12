@@ -1,7 +1,6 @@
 import styles from './App.module.css';
-
 import Header from './components/Header';
-// import HeroSection from './components/HeroSection';
+import HeroSection from './components/HeroSection';
 import ServicesGrid from './components/ServicesGrid';
 import FeatureTitle from './components/FeatureTitle';
 import FeatureSection from './components/FeatureSection';
@@ -34,7 +33,7 @@ function App() {
     return (
         <div className={styles.appContainer}>
             <Header/>
-            {/*<HeroSection />*/}
+            <HeroSection />
             <ServicesGrid />
             <FeatureTitle />
             {features.map(feature => (

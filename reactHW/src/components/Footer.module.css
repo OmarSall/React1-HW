@@ -88,8 +88,8 @@ h4 {
 }
 
 .socialIcons img {
-    width: 34px;
-    height: 34px;
+    width: 54px;
+    height: 54px;
     object-fit: contain;
     display: flex;
     cursor: pointer;
