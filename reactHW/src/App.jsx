@@ -2,8 +2,7 @@ import styles from './App.module.css';
 
 import Header from './components/Header';
 // import HeroSection from './components/HeroSection';
-// import ServicesGrid from './components/ServicesGrid';
-// import IntroText from './components/IntroText';
+import ServicesGrid from './components/ServicesGrid';
 import FeatureTitle from './components/FeatureTitle';
 import FeatureSection from './components/FeatureSection';
 import DualCardsSection from './components/DualCardsSection';
@@ -36,9 +35,8 @@ function App() {
         <div className={styles.appContainer}>
             <Header/>
             {/*<HeroSection />*/}
-            {/*<ServicesGrid />*/}
-            {/*<IntroText />*/}
-            <FeatureTitle/>
+            <ServicesGrid />
+            <FeatureTitle />
             {features.map(feature => (
                 <FeatureSection
                     key={feature.id}
