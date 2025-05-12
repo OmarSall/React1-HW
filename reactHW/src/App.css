@@ -3,11 +3,12 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 4000px;
 }
 
+
 body {
-  height: 4000px;
-  background-color: #dddddd;
+  background-color: rgb(255, 254, 254);
   display: flex;
   justify-content: center;
 }
