@@ -1,0 +1,51 @@
+.dualCardSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 40px;
+    gap: 3rem;
+}
+
+.box {
+    width: 572px;
+    height: 459px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.dualCardSection h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 1rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-content: center;
+}
+
+.dualCardSection p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1rem 1rem;
+}
+
+.light {
+    background-color: #F4F4F4;
+    margin-bottom: 0;
+    color: black;
+}
+
+.dark {
+    margin-bottom: 0;
+    background-color: #1090CB;
+    color: white;
+}
+
+.dark p {
+    color: white;
+}

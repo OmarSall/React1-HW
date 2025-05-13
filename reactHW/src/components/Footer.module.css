@@ -1,0 +1,96 @@
+.footer {
+    width: 1440px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(11, 3, 3, 0.89);
+}
+
+.topSectionWrapper {
+    position: relative;
+    width: 1440px;
+    margin: 0 0;
+    padding: 2rem 0;
+}
+
+.topSection  {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 1rem 6rem;
+}
+
+.topSectionWrapper::before,
+.topSectionWrapper::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1440px;
+    height: 1px;
+    background: #c8c8c8;
+}
+
+.topSectionWrapper::before {
+    border-top: 1px solid #D2D2D2;
+
+}
+
+.topSectionWrapper::after {
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.leftBlock,
+.rightBlock {
+    flex: 0 1 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00329B;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 2rem;
+    color: #515151;
+    font-size: 16px;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+.copyright {
+    display: block;
+    padding-bottom: 3rem;
+    color: #aaa;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 8rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.socialIcons img {
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}

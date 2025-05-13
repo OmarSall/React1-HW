@@ -3,6 +3,13 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 4000px;
+}
+
+body {
+  background-color: rgb(255, 254, 254);
+  display: flex;
+  justify-content: center;
 }
 
 .logo {

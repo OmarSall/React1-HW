@@ -1,0 +1,31 @@
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1090CB;
+    text-decoration: none;
+    margin-bottom: 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    padding-bottom: 0;
+    line-height: 0.6;
+}
+
+.logo:hover {
+    border-bottom: 4px solid #1090CB;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
