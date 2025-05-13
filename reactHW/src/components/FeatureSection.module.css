@@ -6,7 +6,6 @@
     align-items: center;
     text-align: left;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .reverse {
@@ -35,7 +34,6 @@
 .featureImage {
     display: flex;
     margin: 0;
-
 }
 
 .firstWord {

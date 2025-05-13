@@ -5,7 +5,6 @@
     margin: 0 2rem;
     padding: 40px;
     gap: 3rem;
-
 }
 
 .box {
@@ -27,7 +26,6 @@
     font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-content: center;
-
 }
 
 .dualCardSection p {
@@ -36,20 +34,16 @@
     margin: 1rem 1rem;
 }
 
-
-
-.light  {
+.light {
     background-color: #F4F4F4;
     margin-bottom: 0;
     color: black;
-
 }
 
 .dark {
     margin-bottom: 0;
     background-color: #1090CB;
     color: white;
-
 }
 
 .dark p {

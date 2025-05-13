@@ -20,10 +20,10 @@ export default function Footer() {
                         <p>+908 89097 890</p>
                     </div>
                     <div className={styles.socialIcons}>
-                        <img src={FacebookIcon} alt="Facebook" />
-                        <img src={InstagramIcon} alt="Instagram" />
-                        <img src={TwitterIcon} alt="Twitter" />
-                        <img src={LinkedInIcon} alt="LinkedIn" />
+                        <img src={FacebookIcon} alt='Facebook' />
+                        <img src={InstagramIcon} alt='Instagram' />
+                        <img src={TwitterIcon} alt='Twitter' />
+                        <img src={LinkedInIcon} alt='LinkedIn' />
                     </div>
                 </div>
             </div>

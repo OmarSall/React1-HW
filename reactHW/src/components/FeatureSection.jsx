@@ -3,6 +3,7 @@ import styles from './FeatureSection.module.css'
 export default function FeatureSection({ feature, reverse, isThird }) {
     const [firstWord, ...rest] = feature.title.split(' ');
     const restOfTitle = rest.join(' ');
+
     return (
         <div className={`${styles.featureSection} ${reverse ? styles.reverse : ''} ${isThird ? styles.wideText : ''}`}>
             <div className={styles.featureText}>
